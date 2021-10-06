@@ -8,60 +8,60 @@ namespace Assignment2
 {
     public class Rectangle
     {
-        private int length;
-        private int width;
-        private int height;
+        private int lengthRectangle;
+        private int widthRectangle;
+        private int heightRectangle;
 
         public Rectangle()
         {
-            length = 1;
-            width = 1;
-            height = 1;
+            lengthRectangle = 1;
+            widthRectangle = 1;
+            heightRectangle = 1;
         }
 
-        public Rectangle(int length, int width, int height)
+        public Rectangle(int lengthRectangle, int widthRectangle, int heightRectangle)
         {
-            length = length;
-            width = width;
-            height = height;
+            this.lengthRectangle = lengthRectangle;
+            this.widthRectangle = widthRectangle;
+            this.heightRectangle = heightRectangle;
         }
 
-        public int GetLength()
+        public int GetlengthRectangle()
         {
-            return this.length;
+            return this.lengthRectangle;
         }
 
-        public int SetLength(int length)
+        public int SetlengthRectangle(int lengthRectangle)
         {
-            this.length = length;
-            return this.length;
+            this.lengthRectangle = lengthRectangle;
+            return this.lengthRectangle;
         }
 
-        public int GetWidth()
+        public int GetwidthRectangle()
         {
-            return this.width;
+            return this.widthRectangle;
         }
 
-        public int SetWidth(int width)
+        public int SetwidthRectangle(int widthRectangle)
         {
-            this.width = width;
-            return this.width;
+            this.widthRectangle = widthRectangle;
+            return this.widthRectangle;
         }
 
-        public int GetHeight()
+        public int GetheightRectangle()
         {
-            return this.height;
+            return this.heightRectangle;
         }
 
-        public int SetHeight(int height)
+        public int SetheightRectangle(int heightRectangle)
         {
-            this.height = height;
-            return this.height;
+            this.heightRectangle = heightRectangle;
+            return this.heightRectangle;
         }
 
         public int GetVolume()
         {
-            return this.length * this.width * this.height;
+            return this.lengthRectangle * this.widthRectangle * this.heightRectangle;
         }
     }
 }
